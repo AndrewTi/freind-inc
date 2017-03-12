@@ -1,0 +1,19 @@
+<div class="plugin">
+    <div class="bar bar-header bar-light">
+        <button class="button button-icon icon ion-navicon" ng-click="openMenu()"></button>
+        <h1 class="title">Plugins</h1>
+    </div>
+    <div class="content">
+        <ion-scroll class="scroll" direction="y">
+             <div class="plugins">
+                <div class="plugin" ng-repeat="el in arrPlugins">
+                    <div class="block-img">
+                        <img ng-src="{{el.img}}" alt="el.name" class="img">
+                    </div>
+                    <div class="text" ng-bind="el.name"></div>
+                </div>
+            </div>
+        </ion-scroll>
+    </div>
+
+</div>

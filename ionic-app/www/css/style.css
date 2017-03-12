@@ -1,0 +1,126 @@
+.home {
+    padding-top: 3vh;
+    background: #FD797B;
+}
+
+.home > .button-fixed {
+    z-index: 10;
+}
+
+
+.home > .bar {
+    position: fixed;
+    background: #FD797B;
+}
+
+.home > .bar > .button {
+    background: none;
+    color: white;
+    font-size: 14vw;
+    width: auto;
+}
+
+.home > .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 5vw;
+    line-height: 9vw;
+    text-align: center;
+    font-size: 9vw;
+    color: white;
+}
+
+
+.plugin {
+    background: #EDEDED;
+}
+
+.plugin > .bar {
+    background: #CD0B24;
+}
+
+.plugin > .bar > .title {
+    color: white;
+}
+
+.plugin > .bar > .button {
+    background: none;
+    color: white;
+    border: none;
+}
+
+.plugin > .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+    height: 88vh;
+    align-self: flex-end;
+    padding: 0 2vw;
+    line-height: 9vw;
+    text-align: center;
+    font-size: 9vw;
+    color: white;
+}
+
+.plugin > .content > .scroll {
+    width: 100%;
+    height: 88vh;
+}
+
+.plugin > .content > .scroll > .scroll > .plugins {
+    overflow: auto;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: white;
+}
+
+.plugin > .content > .scroll > .scroll > .plugins > .plugin {
+    width: 30%;
+    height: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% 1%;
+    border: 1px solid grey;
+    background: white;
+    font-size: 2.5vh;
+    line-height: 3.3vh;
+    color: #505050;
+}
+
+.plugin > .content > .scroll > .scroll > .plugins > .plugin > .text {
+    margin-top: 1vh;
+}
+
+
+
+
+.menu > .bar {
+    background: #CD0B24;
+}
+
+.menu > .bar > .title {
+    color: white;
+    text-align: center;
+}
+
+.menu > .content > div > .buttons > .link {
+    display: block;
+    width: 100%;
+    height: 7vh;
+    background: #e04949;
+    text-align: center;
+    line-height: 7vh;
+    color: white;
+    text-decoration: none;
+}
+
+.menu > .content > div > .buttons > .link:active {
+    background: black;
+}
