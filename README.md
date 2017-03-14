@@ -1,4 +1,4 @@
-# Freind-inc
+# Friend-inc
 
 ## [Timer](https://github.com/AndrewTi/freind-inc/tree/master/timer)
 
