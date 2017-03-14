@@ -1,3 +1,3 @@
 # Timer
 
-## [Demo](https://andrewti.github.io/freind-inc/timer/)
+## [Demo](https://andrewti.github.io/friend-inc/timer/)
